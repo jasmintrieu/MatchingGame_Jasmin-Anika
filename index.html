@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <h1>Matching Game</h1>
+  </h1>
+  <p> by Jasmin Schroeder Trieu and Anika Hakim</p>
+  <hr>
+  <p><i>Click on the cards to see the hidden images and try and find matches! You can only see 2 cards at a time.
+      Remember where the cards you find are so you can match them up! Every time you flip a card over, your score increments by 1. The lower your score, the better! Good luck!</i></p>
+  <hr>
+  <hr>
+  <div class="game">
+    <!-- TODO add style like below for each cell, then you can write a function to query for these and modify the display to block or none-->
+    <div id="1" class="game-cell">
+      <img src="dolphin.jpg" id="dolphin" style="display: none;">
+    </div>
+    <div id="2" class="game-cell">
+      <img src="jellyfish.jpg" id="jellyfish" style="display: none;">
+    </div>
+    <div id="3" class="game-cell">
+      <img src="otter.jpg" id="otter" style="display: none;">
+    </div>
+    <div id="4" class="game-cell">
+      <img src="whale.jpg" id="whale" style="display: none;">
+    </div>
+    <div id="5" class="game-cell">
+      <img src="walrus.jpg" id="walrus" style="display: none;">
+    </div>
+    <div id="6" class="game-cell">
+      <img src="seahorse.jpg" id="seahorse" style="display: none;">
+    </div>
+    <div id="7" class="game-cell">
+      <img src="polarbear.jpg" id="polarbear" style="display: none;">
+    </div>
+    <div id="8" class="game-cell">
+      <img src="penguin.jpg" id="penguin" style="display: none;">
+    </div>
+    <div id="9" class="game-cell">
+      <img src="walrus.jpg" id="walrus" style="display: none;">
+    </div>
+    <div id="10" class="game-cell">
+      <img src="seahorse.jpg" id="seahorse" style="display: none;">
+    </div>
+    <div id="11" class="game-cell">
+      <img src="penguin.jpg" id="penguin" style="display: none;">
+    </div>
+    <div id="12" class="game-cell">
+      <img src="whale.jpg" id="whale" style="display: none;">
+    </div>
+    <div id="13" class="game-cell">
+      <img src="dolphin.jpg" id="dolphin" style="display: none;">
+    </div>
+    <div id="14" class="game-cell">
+      <img src="jellyfish.jpg" id="jellyfish" style="display: none;">
+    </div>
+    <div id="15" class="game-cell">
+      <img src="otter.jpg" id="otter" style="display: none;">
+    </div>
+    <div id="16" class="game-cell">
+      <img src="polarbear.jpg" id="polarbear" style="display: none;">
+    </div>
+  </div>
+
+  <div>
+    <div> <h3> Score: <span id="scoreText"></span></h3></div>
+    <div><button onclick="resetBoard();"> Reset </button></div>
+    <div><span id = "winningMessage"></span></div>
+  </div>
+
+ 
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
